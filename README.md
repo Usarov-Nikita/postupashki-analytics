@@ -23,8 +23,8 @@
 ```bash
 python seed.py
 python selftest.py
-python integration_test.py
-python regression_test.py
+python integration\\\_test.py
+python regression\\\_test.py
 python app.py
 ```
 
@@ -32,21 +32,19 @@ python app.py
 
 ## Основные папки
 
-- data — исходные и подготовленные данные.
-- reports — рабочие книги по этапам анализа.
-- mvp — рабочий прототип измерительной системы.
-- charts — изображения для презентации.
-- docs — условие кейса и финальные материалы для защиты.
+* data — исходные и подготовленные данные.
+* reports — рабочие книги по этапам анализа.
+* mvp — рабочий прототип измерительной системы.
+* charts — изображения для презентации.
+* docs — условие кейса и финальные материалы для защиты.
 
 ## Финальные материалы
 
 В папке `docs` лежат:
 
-- `case.pdf` — условие кейса;
-- `final_presentation.pdf` — финальная презентация для защиты;
-- `final_presentation.pptx` — редактируемая версия презентации;
-- `executive_summary.pdf` — финальный краткий отчёт на две страницы;
-- `executive_summary.pptx` — редактируемая версия краткого отчёта.
+* `case.pdf` — условие кейса;
+* `final\\\_presentation.pdf` — финальная презентация для защиты;
+* `executive\\\_summary.pdf` — финальный краткий отчёт на две страницы;
 
 ## Что показывать на защите
 
@@ -72,3 +70,4 @@ py -3.14 -m ruff check .
 py -3.14 -m ruff format --check .
 py -3.14 -m pycodestyle --max-line-length=79 .
 ```
+
