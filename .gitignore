@@ -1,0 +1,14 @@
+# Локальное окружение и кэши
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.idea/
+
+# Локальные резервные и временные базы
+mvp/mvp.sqlite.bak
+mvp/mvp.pre_product.sqlite
+mvp/seed_*.sqlite
+
+# Генерируемые выгрузки
+mvp/exports/

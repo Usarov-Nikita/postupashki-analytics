@@ -1,0 +1,4 @@
+# Runtime: Python 3.14 (tested).
+# No third-party packages are required.
+# sqlite3, http, csv and other runtime modules are Python standard library.
+# Optional development tools: pip install -r requirements-dev.txt
